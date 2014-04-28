@@ -41,15 +41,22 @@
 		<mockito.version>1.9.0</mockito.version>
 		<powermock.version>1.4.12</powermock.version>
 		<activiti.version>5.15.1-kft</activiti.version>
-    <activiti.engine.version>5.15.1-kft</activiti.engine.version>
+    	<activiti.engine.version>5.15.1-kft</activiti.engine.version>
 
 		<!-- jdbc h2 -->
 		<jdbc.driver.groupId>com.h2database</jdbc.driver.groupId>
 		<jdbc.driver.artifactId>h2</jdbc.driver.artifactId>
 		<jdbc.driver.version>1.3.173</jdbc.driver.version>
 
-		<!-- jdbc mysql <jdbc.driver.groupId>mysql</jdbc.driver.groupId> <jdbc.driver.artifactId>mysql-connector-java</jdbc.driver.artifactId> 
-			<jdbc.driver.version>5.1.11</jdbc.driver.version> -->
+		<!-- jdbc mysql -->
+		<jdbc.driver.groupId>mysql</jdbc.driver.groupId>
+		<jdbc.driver.artifactId>mysql-connector-java</jdbc.driver.artifactId>
+		<jdbc.driver.version>5.1.11</jdbc.driver.version> 
+		
+		<!-- jdbc oracle -->
+		<jdbc.driver.groupId>com.oracle</jdbc.driver.groupId>
+		<jdbc.driver.artifactId>ojdbc</jdbc.driver.artifactId>
+		<jdbc.driver.version>14</jdbc.driver.version> 
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
